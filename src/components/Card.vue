@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import WebIcon from "./icons/WebIcon.vue";
 import HandIcon from "./icons/HandIcon.vue";
-import CalenderIcon from "./icons/CalenderIcon.vue";
+import DateIcon from "./icons/DateIcon.vue";
 defineProps<{
   media?: string;
   tickets?: string;
@@ -23,7 +23,7 @@ defineProps<{
         <p class="font-semibold">{{ tickets }}</p>
       </li>
       <li class="flex items-center gap-3">
-        <CalenderIcon />
+        <DateIcon />
         <p>{{ dated }}</p>
       </li>
     </ul>
