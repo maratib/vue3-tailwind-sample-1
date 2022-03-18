@@ -16,7 +16,7 @@ module.exports = {
     extend: {
       // fontFamily: { headline: ["Oswald"] },
       colors: {
-        bgBody: "#F3F5FD",
+        bgBody: "#f2f4f6",
         primary: "#2960FF",
         gradient: "#4f71c6",
       },

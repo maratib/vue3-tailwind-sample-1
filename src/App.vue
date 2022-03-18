@@ -13,7 +13,7 @@ import RightPane from "./components/RightPane.vue";
     <div class="flex">
       <Aside />
       <!-- Slot -->
-      <div class="bg-gray-300 w-7/12">
+      <div class="bg-gray-400 w-7/12">
         <div class="flex items-center mt-12">
           <!-- Navbar Toggler -->
           <TogglerButton />
